@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">The Student Library</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_books">Books</string>
+    <string name="title_activity_reg">Registration</string>
+    <string name="title_activity_log">Login</string>
+    <string name="title_activity_book">Books</string>
+    <string name="title_activity_book_info">Book Information</string>
+    <string name="title_activity_online_lib_menu">Online Library Menu</string>
+    <string name="title_activity_onlinelibactivity">Online books</string>
+    <string name="title_activity_online_book_select">Online Book Rental</string>
+</resources>

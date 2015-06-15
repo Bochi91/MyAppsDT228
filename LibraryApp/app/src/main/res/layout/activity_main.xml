@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#0000FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to the Library"
+        android:id="@+id/txthead"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="10dp"
+        android:text="View books, login or register below "
+        android:id="@+id/txtsub"
+        android:layout_below="@+id/txthead"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Books"
+        android:id="@+id/btnbook"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/des3"
+        android:background="#FFFFFF"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnlog"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/btnbook"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnbook" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btnReg"
+        android:layout_centerVertical="true"
+        android:background="#FFFFFF"
+        android:layout_marginTop = "10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnlog"
+        android:layout_alignEnd="@+id/btnlog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Created By: Justin Capocci"
+        android:id="@+id/txtcreator"
+        android:layout_below="@+id/btnReg"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This application allows user to view, add or"
+        android:textColor="#FFFFFF"
+        android:id="@+id/des"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/txtsub"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="delete books locally. Users must register "
+        android:id="@+id/des2"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/des"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="and login to borrow or return books."
+        android:id="@+id/des3"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/des2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
